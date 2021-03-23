@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ReactTags__tags {
+  margin: 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ReactTags__tagInputField {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 18px 14px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+}
+
+.ReactTags__selected .ReactTags__tag {
+  display: inline-block;
+  background: #3f51b5;
+  color: white;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.ReactTags__selected .ReactTags__remove {
+  color: white;
+  background: none;
+  font-size: 1.2rem;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.ReactTags__suggestions {
+  font-size: 1.2rem;
+  cursor: pointer;
 }
