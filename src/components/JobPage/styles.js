@@ -13,13 +13,15 @@ export default makeStyles({
   },
   category: {
     padding: 5,
+    margin: '4px 0',
+    borderRadius: 5,
     cursor: 'pointer',
     transition: '.3s',
     '&:hover': {
       background: "#c0c0c0",
+    },
+    '&.active': {
+      background: "#c0c0c0"
     }
-  },
-  activeCategory: {
-    background: "#c0c0c0"
   }
 })

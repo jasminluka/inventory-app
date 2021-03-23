@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .ReactTags__tags {
   margin: 8px;
 }
 
 .ReactTags__tagInputField {
-  box-sizing: border-box;
   width: 100%;
   padding: 18px 14px;
   font-size: 1rem;
